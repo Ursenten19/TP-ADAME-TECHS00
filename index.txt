@@ -1,0 +1,5 @@
+﻿Remaruqe TP00:
+
+Bonjour, Ce tp00 est fait en html css pure, il lui manque la partie media query sur la barre des menus et sur le footer pour su'il soit completement responsif.
+
+Au revoir
