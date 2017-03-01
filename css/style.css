@@ -1,0 +1,354 @@
+/*
+//////////////////////////////////////////////////////
+
+FREE HTML5 TEMPLATE 
+DESIGNED & DEVELOPED by FREEHTML5.CO
+
+//////////////////////////////////////////////////////
+*/
+
+
+html, body{
+	width: 100%;
+	
+	margin: 0%;
+	padding: 0%;
+	
+	
+}
+
+.bodi{
+	position: absolute;
+	width: 75%;
+	margin-left: 12.5%;
+	
+
+	height: 350%;
+}
+
+
+/* Header */
+
+header{
+	position: relative;
+	display: block;
+	height: 8%;
+	width: 100%;
+
+
+	
+}
+
+
+
+/* Logo */
+#logo{
+	display: inline-block;
+	width: 9%;
+	height: 51%;
+	margin-top: 4%;
+	
+	
+}
+#logo > img{
+	
+	height: 100%;
+	width: 100%;
+}
+/* Fin Logo */
+
+
+/* Navigation */
+
+nav{
+	display: inline-block;
+	
+	margin-top: 5%;
+	float: right;
+	width: 72%;
+
+
+	}
+nav ul{
+	
+	list-style-type: none;
+	float: right;
+
+
+	
+	
+	width: 87%;
+	
+	
+	
+	
+}
+nav li{
+
+	display: inline-block;
+	
+	width: auto;
+	
+	font-family: monospace;
+	margin-left: 5%;
+	padding: 0%;
+
+
+	text-align: center;
+	
+}
+.li4{
+	margin-left: 28.35%;
+	
+}
+
+nav ul li a{
+	
+	
+
+
+
+	
+	
+}
+nav ul li a:link{
+	text-decoration: none;
+	
+	font-size: 17px;
+	letter-spacing: .05em;
+	color: #7b7b7b;
+	padding-bottom: 5px;
+	
+}
+.a1{
+	border-bottom: 2px solid #1d2dfd;
+	
+}
+.a4{
+	color: #1d2dfd; 
+}
+
+nav a:hover {
+  color: #7b7b7b;
+  border-bottom: 2px solid #1d2dfd;
+  
+}
+/* Fin Navigation */
+
+/* Fin Header */
+
+
+
+main{
+	position: absolute;
+	width: 100%;
+	height: 84%;
+	display: block;
+}
+
+
+.introduction{
+	position: absolute;
+	display: block;
+	height: 15%;
+
+	width: 100%;
+}
+
+h1{
+	margin-top: 0%;
+	padding-top: 0%;
+	font-family: monospace;
+	font-weight: 400;
+	color: #000000;
+	font-size: 550%;
+	line-height: 1.2;
+} 
+
+p{
+	width: 46%;
+	margin-left: 54%;
+	font-family: monospace;
+	font-size: 130%;
+	line-height: 30px;
+	color: #7b7b7b;
+}
+
+
+p > a:hover, p2 > a:hover, p3 > a:hover{
+  color: #7b7b7b;
+  border-bottom: 2px solid #1d2dfd;
+  
+  
+  
+  
+  
+}
+p > a, p2 > a, p3 > a{
+
+	text-decoration: none;
+	color: #1d2dfd;
+	
+	
+	
+
+}
+
+
+.images{
+	position: absolute;
+	display: block;
+	top: 17%;
+	height: 70%;
+	width: 100%;
+}
+.image1, .image2, .image3, .image4, .image5, .image6, .image7, .image8{
+	display: inline-block;
+	position: absolute;
+	width: 47.5%;
+	height: 22%;
+}
+
+.image1, .image3, .image5, .image7{
+
+	margin-left: 0%;
+}
+.image2, .image4, .image6, .image8{
+	
+	
+	margin-left: 51.5%;
+}
+.image3, .image4{
+	top: 24.5%;
+}
+.image5, .image6{
+	top: 49%;
+}
+.image7, .image8{
+	top: 73.5%;
+}
+
+.image1 img, .image2 img, .image3 img, .image4 img, .image5 img, .image6 img, .image7 img, .image8 img{
+	display: relative;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.parag1, .parag2{
+	position: relative;
+	text-align: center;
+	width: 92%;
+	height: 88%;
+	top: 0%;
+	margin: 4%;
+	opacity: 1;
+	background-color: white;
+	opacity: 0;	
+}
+.parag1:hover, .parag2:hover{
+	opacity: 1;
+}
+.parag1 h2, .parag2 h2{
+	padding-top: 15%;
+	font-family: monospace;
+	color: black;
+	font-weight:normal;
+	
+
+}
+.parag1 ul, .parag2 ul{
+	
+	list-style-type: none;
+	
+}
+.parag1 ul li, .parag2 ul li{
+	display: inline-block;
+	color: #7b7b7b;
+	
+	font-family: monospace;
+}
+.parag1 ul li::after, .parag2 ul li::after{
+	content: ",";
+}
+.parag1 ul li:last-child::after, .parag2 ul li:last-child::after{
+	content: "";
+}
+
+.mail{
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 10%;
+	top: 90%;
+}
+.h2{
+	margin-top: 0%;
+	padding-top: 0%;
+	font-family: monospace;
+	font-weight: 400;
+	color: #000000;
+	font-size: 500%;
+
+  
+ 
+} 
+.p2{
+	width: 46%;
+	margin-left: 0%;
+	font-family: monospace;
+	font-size: 130%;
+	line-height: 30px;
+	color: #7b7b7b;
+	
+}
+
+footer{
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 6.5%;
+	top: 93%;
+}
+.nav ul{
+	list-style-type: none;
+	width: 55%;
+	margin-left: 46.5%;
+}
+.nav li{
+	display: inline-block;
+	width: auto;
+	font-family: monospace;
+	margin-left: 5%;
+	padding: 0%;
+	text-align: center;
+}
+.nav ul li a{
+	text-decoration: none;
+	font-size: 17.5px;
+	letter-spacing: .05em;
+	color: #7b7b7b;
+	padding-bottom: 5px;
+}
+
+.nav a:hover {
+  color: #7b7b7b;
+  border-bottom: 2px solid #1d2dfd;
+  
+}
+.p3{
+	position: absolute;
+	width: 46%;
+	top: 17%;
+	margin-left: 53.5%;
+	font-family: monospace;
+	font-size: 140%;
+	line-height: 30px;
+	color: #7b7b7b;
+	
+}
+.p3 a{
+	text-decoration: none;
+	color: #1d2dfd; 
+}
+
